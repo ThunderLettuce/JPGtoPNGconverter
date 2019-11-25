@@ -13,3 +13,6 @@ from PIL import Image  # ? to convert the files
 # TODO loop through pokedex
 # *      convert to PNG
 # *      save to the new folder
+
+
+# Test
