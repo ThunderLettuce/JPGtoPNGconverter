@@ -14,7 +14,7 @@ if not os.path.exists(png_folder):
 
 for filename in os.listdir(jpg_folder):
     img = Image.open(f'{jpg_folder}{filename}')
-    Image.save(f'{png_folder}{filename}', 'png')
+    Image.save(f'{png_folder}{filename}.png', 'png')
     print('all done')
 
 # TODO loop through pokedex
